@@ -84,7 +84,7 @@ async def start_(client: Client, message: Message):
                         "‹ كروب الدعم › ", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "‹ قناة السورس ›", url=f"https://t.me/r_e_o_i"
+                        "‹ قناة السورس ›", url=f"https://t.me/ZFLAPJACK"
                     ),
                 ],
                 [
@@ -101,16 +101,16 @@ async def start_(client: Client, message: Message):
 @Client.on_message(command(["مبرمج السورس", f"ؤمن", f"ورس", f"السورس", f"مطور", f"المطور"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/440e5618cd92ce9d75b6a.jpg",
-        caption=f"""Programmer [- نَـبض 🍁.](https://t.me/r_e_o_i) 𖡼\nᴛᴏ ᴄᴏᴍᴍụɴɪᴄᴀᴛᴇ ᴛᴏɢᴇᴛʜᴇʀ 𖡼\nғᴏʟʟᴏᴡ ᴛʜᴇ ʙụᴛᴛᴏɴѕ ʟᴏᴡᴇʀ 𖡼""",
+        photo=f"https://telegra.ph/file/6963606905c8d217c6eae.jpg",
+        caption=f"""Programmer [سورس فلاب جاك SOURSE FLAP JACK](https://t.me/ZFLAPJACK) 𖡼\nᴛᴏ ᴄᴏᴍᴍụɴɪᴄᴀᴛᴇ ᴛᴏɢᴇᴛʜᴇʀ 𖡼\nғᴏʟʟᴏᴡ ᴛʜᴇ ʙụᴛᴛᴏɴѕ ʟᴏᴡᴇʀ 𖡼""",
         reply_markup=InlineKeyboardMarkup(
          [
             [
-                InlineKeyboardButton("- نَـبض 🍁.", url=f"https://t.me/r_e_o_i"),
+                InlineKeyboardButton("سورس فلاب جاك SOURSE FLAP JACK", url=f"https://t.me/ZFLAPJACK"),
             ],
             [
                 InlineKeyboardButton(
-                    "المطور .", url=f"https://t.me/Q_4_Q_3"
+                    "-Arthur ' ارثـࢪ. .", url=f"https://t.me/D2DDDD"
                 ),
             ],
             [
@@ -128,7 +128,7 @@ async def help(client: Client, message: Message):
         reply_markup=InlineKeyboardMarkup(
          [
             [
-                InlineKeyboardButton("- نَـبض 🍁.", url=f"https://t.me/r_e_o_i"),
+                InlineKeyboardButton("سورس فلاب جاك SOURSE FLAP JACK", url=f"https://t.me/ZFLAPJACK"),
             ],
             [
                 InlineKeyboardButton(

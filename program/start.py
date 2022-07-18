@@ -101,16 +101,16 @@ async def start_(client: Client, message: Message):
 @Client.on_message(command(["مبرمج السورس", f"ؤمن", f"ورس", f"السورس", f"مطور", f"المطور"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/238df32d45041c24e1dfb.jpg",
-        caption=f"""Programmer [💞💙𝘾𝙀𝙇𝙀𝘽𝙍𝙄𝙏𝙔.](https://t.me/A_th20066) 𖡼\nᴛᴏ ᴄᴏᴍᴍụɴɪᴄᴀᴛᴇ ᴛᴏɢᴇᴛʜᴇʀ 𖡼\nғᴏʟʟᴏᴡ ᴛʜᴇ ʙụᴛᴛᴏɴѕ ʟᴏᴡᴇʀ 𖡼""",
+        photo=f"https://telegra.ph/file/2c3fcb91134d5c201fcbf.jpg",
+        caption=f"""Programmer [〞𓄼𝐊𝐀𝐑𝐌𝐀𝐍༒ڪـٵڔﻣـن𓄹〝.](https://t.me/vvvs7cvv) 𖡼\nᴛᴏ ᴄᴏᴍᴍụɴɪᴄᴀᴛᴇ ᴛᴏɢᴇᴛʜᴇʀ 𖡼\nғᴏʟʟᴏᴡ ᴛʜᴇ ʙụᴛᴛᴏɴѕ ʟᴏᴡᴇʀ 𖡼""",
         reply_markup=InlineKeyboardMarkup(
          [
             [
-                InlineKeyboardButton("💞💙𝘾𝙀𝙇𝙀𝘽𝙍𝙄𝙏𝙔.", url=f"https://t.me/A_th20066"),
+                InlineKeyboardButton("〞𓄼𝐊𝐀𝐑𝐌𝐀𝐍༒ڪـٵڔﻣـن𓄹〝.", url=f"https://t.me/vvvs7cvv"),
             ],
             [
                 InlineKeyboardButton(
-                    "🇮🇶𓆩 ﻋ̝̚لْــــي 𖠴𓆪🇮🇶𓆪َِ :-", url=f"https://t.me/A_th2006"
+                    "انَِٰہۤ؏ـژال", url=f"https://t.me/YYS7GYY"
                 ),
             ],
             [
@@ -128,7 +128,7 @@ async def help(client: Client, message: Message):
         reply_markup=InlineKeyboardMarkup(
          [
             [
-                InlineKeyboardButton("💞💙𝘾𝙀𝙇𝙀𝘽𝙍𝙄𝙏𝙔.", url=f"https://t.me/A_th2006"),
+                InlineKeyboardButton("〞𓄼𝐊𝐀𝐑𝐌𝐀𝐍༒ڪـٵڔﻣـن𓄹〝.", url=f"https://t.me/vvvs7cvv"),
             ],
             [
                 InlineKeyboardButton(

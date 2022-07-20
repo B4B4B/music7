@@ -84,7 +84,7 @@ async def start_(client: Client, message: Message):
                         "‹ كروب الدعم › ", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "‹ قناة السورس ›", url=f"https://t.me/A_th20066"
+                        "‹ قناة السورس ›", url=f"https://t.me/wij_v0"
                     ),
                 ],
                 [
@@ -101,16 +101,16 @@ async def start_(client: Client, message: Message):
 @Client.on_message(command(["مبرمج السورس", f"ؤمن", f"ورس", f"السورس", f"مطور", f"المطور"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/2c3fcb91134d5c201fcbf.jpg",
-        caption=f"""Programmer [〞𓄼𝐊𝐀𝐑𝐌𝐀𝐍༒ڪـٵڔﻣـن𓄹〝.](https://t.me/vvvs7cvv) 𖡼\nᴛᴏ ᴄᴏᴍᴍụɴɪᴄᴀᴛᴇ ᴛᴏɢᴇᴛʜᴇʀ 𖡼\nғᴏʟʟᴏᴡ ᴛʜᴇ ʙụᴛᴛᴏɴѕ ʟᴏᴡᴇʀ 𖡼""",
+        photo=f"https://telegra.ph/file/1a7236937d8f97bde942d.jpg",
+        caption=f"""Programmer [- ســرو ‘ آل دليــم.](https://t.me/JKJJ7) 𖡼\nᴛᴏ ᴄᴏᴍᴍụɴɪᴄᴀᴛᴇ ᴛᴏɢᴇᴛʜᴇʀ 𖡼\nғᴏʟʟᴏᴡ ᴛʜᴇ ʙụᴛᴛᴏɴѕ ʟᴏᴡᴇʀ 𖡼""",
         reply_markup=InlineKeyboardMarkup(
          [
             [
-                InlineKeyboardButton("〞𓄼𝐊𝐀𝐑𝐌𝐀𝐍༒ڪـٵڔﻣـن𓄹〝.", url=f"https://t.me/vvvs7cvv"),
+                InlineKeyboardButton("- ســرو ‘ آل دليــم.", url=f"https://t.me/JKJJ7"),
             ],
             [
                 InlineKeyboardButton(
-                    "انَِٰہۤ؏ـژال", url=f"https://t.me/YYS7GYY"
+                    "- ســرو ‘ آل دليــم.", url=f"https://t.me/JKJJ7"
                 ),
             ],
             [
@@ -128,7 +128,7 @@ async def help(client: Client, message: Message):
         reply_markup=InlineKeyboardMarkup(
          [
             [
-                InlineKeyboardButton("〞𓄼𝐊𝐀𝐑𝐌𝐀𝐍༒ڪـٵڔﻣـن𓄹〝.", url=f"https://t.me/vvvs7cvv"),
+                InlineKeyboardButton("- ســرو ‘ آل دليــم.", url=f"https://t.me/JKJJ7"),
             ],
             [
                 InlineKeyboardButton(
